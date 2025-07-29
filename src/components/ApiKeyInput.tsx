@@ -13,7 +13,7 @@ export const ApiKeyInput: React.FC<ApiKeyInputProps> = ({ apiKey, onApiKeyChange
     <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-6">
       <div className="flex items-center space-x-2 mb-3">
         <Key className="w-5 h-5 text-yellow-600" />
-        <h3 className="text-yellow-800 font-medium">RapidAPI Key</h3>
+        <h3 className="text-yellow-800 font-medium">RapidAPI Key Required</h3>
       </div>
       <p className="text-yellow-700 text-sm mb-3">
         To use Judge0 API, you need a RapidAPI key. Get one free at{' '}
